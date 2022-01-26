@@ -514,26 +514,16 @@ button {
     margin-top: 25px;
   }
 
-  #tsh
-  {
-    display: flex;
-    padding-top: 3%;
-    padding-left: 5%;
-    margin-bottom: 0%;
-  }
-
   .cardgeneral-a
   {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
   }
   .card-a 
   {
-    width: 30%;
-    height: 230px;
+    width: 15%;
+    height: 300px;
     background-color: white; 
     box-shadow: 0px 5px 20px #999;
     border-radius: 20px;
@@ -555,13 +545,13 @@ button {
   .card-image-a
 {
   border-radius: 20px 20px 0px 0px;
-  height: 140px;
+  height: 250px;
   overflow: hidden;
   position: relative;
 }
   .card-image-a img
   {
-    width: 100%;
+    height: 100%;
     transition: all .2s ease-in-out;
     position: absolute;
     object-fit: contain;
@@ -578,8 +568,20 @@ button {
     padding-left: 0%;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 18px;
     margin-bottom: 8px;
   }
 
   /*Activités*/
+
+  /*Footer*/
+
+  
+  footer
+  {
+    background-color: #F2F2F2;
+    margin-top: 25px;
+    height: 150px;
+  }
+
+  /*Footer*/
