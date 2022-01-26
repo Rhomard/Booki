@@ -541,6 +541,11 @@ button {
     margin-top: 3%;
   }
 
+  .card-a:hover
+  {
+    transform: scale(1.1);
+  }
+
   .card-a a 
   {
     color: black; 
@@ -549,7 +554,6 @@ button {
 
   .card-image-a
 {
-  margin: 5px;
   border-radius: 20px 20px 0px 0px;
   height: 140px;
   overflow: hidden;
