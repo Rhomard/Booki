@@ -4,12 +4,14 @@
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+    margin: 0px;
   }
 
 /*Hébergements*/
 
   #section_h
   {
+    margin: 0px;
     padding: 0px;
     border-radius: 0px;
     width: 100%;
@@ -30,14 +32,7 @@
 
   .cardgeneral
   {
-      padding: 0px 25px 0px 25px;
-  }
-
-  #tsh
-  {
-    padding:0px;
-    padding-left: 25px;
-    padding-top: 25px;
+      padding: 0px 30px 0px 30px;
   }
 
   .section-grise #ap
@@ -56,20 +51,6 @@
     width: 100%;
     padding: 0px;
     margin: 0px;
-  }
-
-  .grow
-  {
-    padding:0px;
-    padding-left: 25px;
-    padding-right: 35px;
-    padding-top: 50px;
-  }
-
-  #tsp
-  {
-    padding:0px;
-    padding-left: 15px;
   }
 
   .cardpop
@@ -92,7 +73,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0px 35px 50px 35px;
+    padding: 0px 30px 50px 30px;
   }
 
   .card-imagepop
@@ -118,4 +99,14 @@
     flex-direction: column;
     justify-content: space-between;
   }
+
   /*Populaires*/
+
+  /*Footer*/
+
+footer
+{
+    padding: 35px 30px 35px 30px;
+}
+
+  /*Footer*/

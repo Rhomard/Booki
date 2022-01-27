@@ -99,7 +99,7 @@ section p
   margin-left: -10px;
 }
 
-button
+form button
 {
   display: none;
 }
@@ -112,12 +112,14 @@ button
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+    margin: 0px;
   }
 
 /*Hébergements*/
 
 #section_h
 {
+  margin: 0px;
   padding: 0px;
   border-radius: 0px;
   width: 100%;
@@ -128,7 +130,7 @@ button
 
 .cardgeneral
 {
-  padding: 0px 25px 0px 25px;
+  padding: 0px 30px 0px 30px;
 }
 
 .card 
@@ -176,13 +178,6 @@ button
     margin-bottom: 8px;
   }
 
-#tsh
-{
-  padding:0px;
-  padding-left: 25px;
-  padding-top: 25px;
-}
-
   .card:hover
   {
     transform: scale(0.95);
@@ -204,15 +199,6 @@ button
 .grow
 {
   padding:0px;
-  padding-left: 25px;
-  padding-right: 35px;
-  padding-top: 50px;
-}
-
-#tsp
-{
-  padding:0px;
-  padding-left: 15px;
 }
 
 .cardgeneralpop
@@ -220,7 +206,7 @@ button
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0px 35px 50px 35px;
+    padding: 0px 30px 50px 30px;
   }
 
   .cardpop:hover
@@ -229,3 +215,13 @@ button
   }
 
 /*Populaires*/
+
+/*Footer*/
+
+footer
+{
+  flex-direction: column;
+    padding: 35px 30px 35px 30px;
+}
+
+  /*Footer*/
