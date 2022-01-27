@@ -102,6 +102,35 @@
 
   /*Populaires*/
 
+  /*Activités*/
+
+  .card-grande:hover
+  {
+    transform: scale(0.95);
+  }
+
+  .card-frioul:hover
+  {
+    transform: scale(0.95);
+  }
+
+  .card-pomegues:hover
+  {
+    transform: scale(0.95);
+  }
+
+  .card-notredame:hover
+  {
+    transform: scale(0.95);
+  }
+
+  .card-longchamp:hover
+  {
+    transform: scale(0.95);
+  }
+
+  /*Activités*/
+
   /*Footer*/
 
 footer
