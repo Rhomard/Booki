@@ -67,22 +67,9 @@ body
 
 /*header*/
 
-section h1
-  {
-    padding : 15px 15px 0px 15px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-  }
-
-section p
-  {
-    font-family: 'Raleway', sans-serif;
-    padding : 0px 15px 15px 15px;
-  }
-
 /*Recherche*/
 
-  .recherche
+.recherche
 {
   padding-left: 0px;
   display: flex;
@@ -107,13 +94,13 @@ form button
 /*Recherche*/
 
 .section-grise
-  {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px;
-  }
+{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
 
 /*Hébergements*/
 
@@ -134,54 +121,55 @@ form button
 }
 
 .card 
-  {
-    width: 100%;
-    height: 250px;
-    background-color: white; 
-    box-shadow: 0px 5px 20px #999;
-    border-radius: 20px;
-    min-width: 220px;
-    margin-top: 25px;
-  }
+{
+  width: 100%;
+  height: 250px;
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  min-width: 220px;
+  margin-top: 25px;
+}
 
-  .card-image
-  {
-    margin: 5px;
-    border-radius: 20px 20px 0px 0px;
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-  }
-    .card-image img
-    {
-      width: 100%;
-      transition: all .2s ease-in-out;
-      position: absolute;
-      object-fit: contain;
-    }
+.card-image
+{
+  margin: 5px;
+  border-radius: 20px 20px 0px 0px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
 
-    .card-title h1
-  {
-    margin: 0%;
-    padding-left: 0%;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 8px;
-  }
+.card-image img
+{
+  width: 100%;
+  transition: all .2s ease-in-out;
+  position: absolute;
+   object-fit: contain;
+}
 
-  .card-price h3
-  {
-    font-weight: normal;
-    font-size: 13px;
-    margin: 0%;
-    margin-bottom: 8px;
-  }
+.card-title h1
+{
+  margin: 0%;
+  padding-left: 0%;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
 
-  .card:hover
-  {
-    transform: scale(0.95);
-  }
+.card-price h3
+{
+  font-weight: normal;
+  font-size: 13px;
+  margin: 0%;
+  margin-bottom: 8px;
+}
+
+.card:hover
+{
+  transform: scale(0.95);
+}
 
 /*Hébergements*/
 
@@ -202,103 +190,104 @@ form button
 }
 
 .cardgeneralpop
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0px 30px 50px 30px;
-  }
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 30px 50px 30px;
+}
 
-  .cardpop:hover
-  {
-    transform: scale(0.95);
-  }
+.cardpop:hover
+{
+  transform: scale(0.95);
+}
 
 /*Populaires*/
 
 /*Activités*/
 
 .cardgeneral-a
-    {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 30px;
-    }
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+}
 
-    .moitie1
-    {
-      flex-direction: column;
-      justify-content: space-between;
-      width: 100%;
-    }
+.moitie1
+{
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
 
-    .moitie2
-    {
-      flex-direction: column;
-      justify-content: space-between;
-      width: 100%;
-      margin-top: 30px;
-    }
+.moitie2
+{
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
 
-    .double
-    {
-      width: 100%;
-      justify-content: space-between;
-      margin-top: 30px;
-    }
+.double
+{
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
 
-    .card-pomegues
-    {
-      height: 200px;
-    }
+.card-pomegues
+{
+  height: 200px;
+}
 
-    .card-frioul
-    {
-      height: 200px;
-      margin-top: 30px;
-    }
+.card-frioul
+{
+  height: 200px;
+  margin-top: 30px;
+}
 
-    .card-notredame
-    {
-      height: 200px;
-    }
-    .card-longchamp
-    {
-      height: 200px;
-      margin-top: 30px;
-    }
+.card-notredame
+{
+  height: 200px;
+}
 
-    .card-grande
-    {
-      width: 100%;
-      height: 200px;
-    }
+.card-longchamp
+{
+  height: 200px;
+  margin-top: 30px;
+}
 
-    .card-grande:hover
-  {
-    transform: scale(0.95);
-  }
+.card-grande
+{
+  width: 100%;
+  height: 200px;
+}
 
-  .card-frioul:hover
-  {
-    transform: scale(0.95);
-  }
+.card-grande:hover
+{
+  transform: scale(0.95);
+}
 
-  .card-pomegues:hover
-  {
-    transform: scale(0.95);
-  }
+.card-frioul:hover
+{
+  transform: scale(0.95);
+}
 
-  .card-notredame:hover
-  {
-    transform: scale(0.95);
-  }
+.card-pomegues:hover
+{
+  transform: scale(0.95);
+}
 
-  .card-longchamp:hover
-  {
-    transform: scale(0.95);
-  }
+.card-notredame:hover
+{
+  transform: scale(0.95);
+}
+
+.card-longchamp:hover
+{
+  transform: scale(0.95);
+}
 
 /*Activités*/
 
@@ -310,4 +299,4 @@ footer
   padding: 35px 30px 35px 30px;
 }
 
-  /*Footer*/
+/*Footer*/

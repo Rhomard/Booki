@@ -1,37 +1,11 @@
 *
 {
   box-sizing: border-box;
- }
+}
 
 body
 {
   font-family: 'Raleway', sans-serif;
-}
-
-main h1
-{
-  font-size: 25px;
-  margin: 10px 0px 10px 0px;
-}
-
-main h2
-{
-  font-size: 25px;
-}
-
-#sectionhaute p
-{
-  margin: 10px 0px 10px 0px;
-}
-
-h2
-{
-  margin: 30px 0px 0px 30px;
-}
-
-#section_a h2
-{
-  margin-left: 0px;
 }
 
 /*header*/
@@ -88,13 +62,29 @@ h2
   
 /*header*/
 
+main h1
+{
+  font-size: 25px;
+  margin: 10px 0px 10px 0px;
+}
+
+main h2
+{
+  font-size: 25px;
+  margin: 30px 0px 0px 30px;
+}
+
 #sectionhaute
 {
   margin: 0px 30px 0px 30px;
 }
 
-  /*Recherche*/
-  
+#sectionhaute p
+{
+  margin: 10px 0px 10px 0px;
+}
+
+/*Recherche*/
 
 .recherche img#pin
 {
@@ -155,195 +145,214 @@ form button
   border-radius: 0px 20px 20px 0px;
   height: 50px;
   font-weight: bold;
-  }
+}
 
-  form button:hover
-  {
-    cursor: pointer;
-  }
+form button:hover
+{
+  cursor: pointer;
+}
 
-  /*Recherche*/
+/*Recherche*/
 
-  /*Filtres*/
+/*Filtres*/
 
-  .filtregeneral
-  {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 20px 0px 20px 0px;
-  }
-  .filtres
-  {
-    display: flex;
-    align-items: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    height: 100%;
-  }
+.filtregeneral
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0px 20px 0px;
+}
 
-  .filtres button
-  {
-    background: none;
-    border: none;
-  }
+.filtres
+{
+  display: flex;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 100%;
+}
 
-  .filtrem
-  {
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 0 0 0;
-    padding: 0px 30px 5px 0px;
-  }
+.filtrem
+{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 0 0;
+  padding: 0px 35px 5px 0px;
+}
 
-  .blocfiltre
-  {
-    display: flex;
-    align-items: center;
-    max-height: 40px;
-    box-sizing: border-box;
-    margin-bottom: 7.5px;
-    margin-top : 7.5px;
-  }
+.blocfiltre
+{
+  display: flex;
+  align-items: center;
+  max-height: 40px;
+  box-sizing: border-box;
+  margin-bottom: 7.5px;
+  margin-top : 7.5px;
+  padding-right: 25px;
+}
 
+.filtres i
+{
+  display: flex;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  height: 35px;
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: -20px;
+  z-index: 1;
+}
 
-  .filtres i
-  {
-    display: flex;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    height: 35px;
-    width: 35px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    margin-right: -20px;
-    z-index: 1;
-  }
+.textfiltre
+{
+  display: flex;
+  font-weight: bold;
+  padding-top : 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 15px;
+  margin-right: 20px;
+  border: 2px solid #F2F2F2;
+  height: 35px;
+  align-items: center;
+  border-radius: 0px 100px 100px 0px;
+}
 
-  .textfiltre
-  {
-    display: flex;
-    font-weight: bold;
-    padding-top : 0px;
-    padding-bottom: 0px;
-    padding-left: 30px;
-    padding-right: 15px;
-    margin-right: 20px;
-    border: 2px solid #F2F2F2;
-    height: 35px;
-    align-items: center;
-    border-radius: 0px 100px 100px 0px;
-  }
+.blocfiltre:hover .textfiltre, .blocfiltre:active .textfiltre
+{
+  color: white;
+  background-color: #0065FC;
+  border-color: #0065FC;
+  cursor: pointer;
+}
 
-  .blocfiltre:hover .textfiltre, .blocfiltre:active .textfiltre
-  {
-    color: white;
-    background-color: #0065FC;
-    border-color: #0065FC;
-    cursor: pointer;
-  }
+.blocfiltre:hover i, .blocfiltre:active i
+{
+  color: white;
+  background-color: #0065FC;
+  cursor: pointer;
+}
 
-  .blocfiltre:hover i, .blocfiltre:active i
-  {
-    color: white;
-    background-color: #0065FC;
-    cursor: pointer;
-  }
+/*Filtres*/
 
-  /*Filtres*/
+/*Info*/
 
-  /*Info*/
+.info
+{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
 
-  .info
-  {
-    display: flex;
-    align-items: center;
-    margin: 20px 0px 20px 0px;
-  }
+.info p
+{
+  padding: 0;
+  padding-left: 15px;
+}
+  
+.info i
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #F2F2F2;
+  border-radius: 100%;
+  min-height: 30px;
+  min-width: 30px;
+  color: #0065FC;
+}
 
-  .info p
-  {
-    padding: 0;
-    padding-left: 15px;
-  }
-  .info i
-  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #F2F2F2;
-    border-radius: 100%;
-    min-height: 30px;
-    min-width: 30px;
-    color: #0065FC;
-  }
+/*Info*/
 
+.section-grise
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 30px 0px 30px;
+}
 
-  /*Info*/
+.section-grise button
+{
+  display: flex;
+  width: 110px;
+  background: none;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
 
-  .section-grise
-  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0px 30px 0px 30px;
-  }
+.section-grise button:hover
+{
+  cursor: pointer;
+}
 
-  .etoilebleue
-  {
-    color: #0065FC;
-  }
+.etoilebleue
+{
+  color: #0065FC;
+}
 
-  .etoilegrise
-  {
-    color: #F2F2F2;
-  }
+.etoilegrise
+{
+  color: #F2F2F2;
+}
 
-  /*Hébergements*/
+/*Hébergements*/
 
-  #section_h
-  {
-    width: 66%;
-    margin-right: 30px;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-  }
+#section_h
+{
+  width: 66%;
+  margin-right: 30px;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
 
+.cardgeneral
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-  .cardgeneral
-  {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+.card 
+{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 230px;
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  min-width: 220px;
+  margin-top: 30px;
+  transition: all 0.3s ease-in-out;
+}
 
-  .card 
-  {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 230px;
-    background-color: white; 
-    box-shadow: 0px 5px 20px #999;
-    border-radius: 20px;
-    min-width: 220px;
-    margin-top: 30px;
-  }
+.card:hover
+{
+  transform: scale(1.1);
+}
 
-  .card a 
-  {
-    color: black; 
-    text-decoration: none;
-  }
+.card a 
+{
+  color: black; 
+  text-decoration: none;
+}
 
-  .card-image
+.card-image
 {
   display: flex;
   margin: 5px;
@@ -351,137 +360,101 @@ form button
   height: 140px;
   overflow: hidden;
 }
-  .card-image img
-  {
-    transition: all .2s ease-in-out;
-    object-fit: cover;
-    width: 100%;
-  }
+.card-image img
+{
+  object-fit: cover;
+  width: 100%;
+}
 
-  .card-body
-  {
-    padding: 0px 0px 0px 15px;
-    display: flex;
-    flex-direction: column;
-  }
+.card-body
+{
+  padding: 0px 0px 0px 15px;
+  display: flex;
+  flex-direction: column;
+}
   
-  .card-body p
-  {
-   margin: 4px 0px 4px 0px;
-  }
+.card-body p
+{
+  margin: 4px 0px 4px 0px;
+}
 
-  .card-title
-  {
-    font-weight: bold;
-    font-size: 15px;
-  }
+.card-title
+{
+  font-weight: bold;
+  font-size: 15px;
+}
 
-  .card-price
-  {
-    font-size: 13px;
-  }
+.card-price
+{
+  font-size: 13px;
+}
 
-  .card-notation
-  {
-    margin: 5px 0px 5px 0px;
-    display: flex;
-  }
+.card-notation
+{
+  margin: 5px 0px 5px 0px;
+  display: flex;
+}
 
-  .card:hover
-  {
-    transform: scale(1.1);
-  }
+/*Hébergements*/
 
-  .section-grise button
-  {
-    display: flex;
-    width: 110px;
-    background: none;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    border: none;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
-  }
-
-  .section-grise button:hover
-  {
-    cursor: pointer;
-  }
-
-  /*Hébergements*/
-
-  /*Populaires*/
+/*Populaires*/
   
-  .populaires
-  {
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    width: 33%;
-  }
+.populaires
+{
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  width: 33%;
+}
 
-  @media screen and (min-width : 992px) and (max-width : 1250px)
-  {
-    .card 
-    {
-      width : 45%;
-    }
-    #section_h
-    {
-      width: 65%;
-    }
-    .populaires
-    {
-      width: 35%;
-    }
+.grow
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  }
-
-  .grow
-  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .grow i
-  {
-   padding-top: 30px;
-   padding-right: 30px;
-  }
+.grow i
+{
+  padding-top: 30px;
+  padding-right: 30px;
+}
 
 
-  .cardgeneralpop
-  {
-    display: flex;
-    flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+.cardgeneralpop
+{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-  .cardpop
-  {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 160px;
-    background-color: white; 
-    box-shadow: 0px 5px 20px #999;
-    border-radius: 20px;
-    margin-top: 30px;
-  }
+.cardpop
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 160px;
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  margin-top: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cardpop:hover
+{
+  transform: scale(1.1);
+}
   
-  .cardpop a 
-  {
-    display: flex;
-    color: black; 
-    text-decoration: none;
-  }
+.cardpop a 
+{
+  display: flex;
+  color: black; 
+  text-decoration: none;
+}
 
-  .card-imagepop
+.card-imagepop
 {
   margin: 5px;
   border-radius: 20px 0px 0px 20px;
@@ -490,378 +463,392 @@ form button
 }
 
 .card-imagepop img
+{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card-bodypop
+{
+  padding: 15px 15px 0px 15px;
+  display: flex;
+  flex-direction: column;
+  width : 66%;
+}
+
+.card-bodypop p
+{
+  margin: 4px 0px 4px 0px;
+}
+
+.card-titlepop
+{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.card-pricepop
+{
+  font-size: 13px;
+}
+
+.card-notationpop
+{
+  width: max-content;
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.card-notationpop i
+{
+  margin-bottom: 15px;
+}
+
+/*Populaires*/
+
+@media screen and (min-width : 992px) and (max-width : 1250px)
+{
+  .card 
   {
-    transition: all .2s ease-in-out;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+    width : 45%;
   }
-
-  .card-bodypop
+  #section_h
   {
-    padding: 15px 15px 0px 15px;
-    display: flex;
-    flex-direction: column;
-    width : 66%;
+    width: 65%;
   }
-
-  .card-bodypop p
+  .populaires
   {
-   margin: 4px 0px 4px 0px;
+    width: 35%;
   }
+}
 
-  .card-titlepop
-  {
-    font-weight: bold;
-    font-size: 15px;
-  }
+/*Activités*/
 
-  .card-pricepop
-  {
-    font-size: 13px;
-  }
+#section_a
+{
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 35px 30px 70px 30px;
+}
 
-  .card-notationpop
-  {
-    width: max-content;
-    display: flex;
-    flex: 1;
-    align-items: flex-end;
-  }
+#section_a h2
+{
+  margin-left: 0px;
+}
 
-  .card-notationpop i
-  {
-    margin-bottom: 15px;
-  }
+#section_a p
+{
+  font-weight: bold;
+  margin: 0px;
+  padding: 15px 15px 15px 15px;
+}
 
-  .cardpop:hover
-  {
-    transform: scale(1.1);
-  }
-  /*Populaires*/
+.cardgeneral-a
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
 
-  /*Activités*/
+.moitie1
+{
+  display: flex;
+  justify-content: space-between;
+  width: 49%;
+}
+  
+.moitie2
+{
+  display: flex;
+  justify-content: space-between;
+  width: 49%;
+}
 
-  #section_a
-  {
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    margin: 35px 30px 70px 30px;
-  }
+.double
+{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
 
-  #section_a p
-  {
-    font-weight: bold;
-    margin: 0px;
-    padding: 15px 15px 15px 15px;
-  }
+/*Vieux Port + Parc National des Calanques*/
 
+.card-grande
+{
+  width: 48%;
+  height: 400px;
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+    
+.card-grande:hover
+{
+  transform: scale(1.1);
+}
+
+.card-grande p
+{
+  position: absolute;
+  bottom : 0px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+}
+    
+.card-grande a 
+{
+  color: black; 
+  text-decoration: none;
+}
+    
+.card-image-grande
+{
+  border-radius: 20px 20px 20px 20px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+    
+.card-image-grande img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Vieux Port + Parc National des Calanques*/
+
+/*Fort de Pomègues*/
+
+.card-pomegues
+{
+  display: flex;
+  height: 55%;
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+    
+.card-pomegues:hover
+{
+  transform: scale(1.1);
+}
+    
+.card-pomegues a 
+{
+  display: flex;
+  flex-direction: column;
+  color: black; 
+  text-decoration: none;
+}
+    
+.card-image-pomegues
+{
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+  position: relative;
+}
+    
+.card-image-pomegues img
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Fort de Pomègues*/
+
+/*Îles du Frioul*/
+
+.card-frioul
+{
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+    
+.card-frioul:hover
+{
+  transform: scale(1.1);
+}
+    
+.card-frioul a 
+{
+  color: black; 
+  text-decoration: none;
+}
+    
+.card-image-frioul
+{
+  border-radius: 20px 20px 0px 0px;
+  height: 110px;
+  overflow: hidden;
+  position: relative;
+}
+    
+.card-image-frioul img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+/*Îles du Frioul*/
+
+/*Notre-Dame-de-la-Garde*/
+
+.card-notredame
+{
+  display: flex;
+  height: 40%;
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+    
+.card-notredame:hover
+{
+  transform: scale(1.1);
+}
+    
+.card-notredame a 
+{
+  display: flex;
+  flex-direction: column;
+  color: black; 
+  text-decoration: none;
+}
+    
+.card-image-notredame
+{
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+  position: relative;
+}
+    
+.card-image-notredame img
+{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Notre-Dame-de-la-Garde*/
+
+/*Parc Longchamp*/
+
+.card-longchamp
+{
+  display: flex;
+  height: 55%;
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+    
+.card-longchamp:hover
+{
+  transform: scale(1.1);
+}
+    
+.card-longchamp a 
+{
+  display: flex;
+  flex-direction: column;
+  color: black; 
+  text-decoration: none;
+}
+    
+.card-image-longchamp
+{
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+  position: relative;
+}
+    
+.card-image-longchamp img
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Parc Longchamp*/
+
+@media screen and (min-width : 768px) and (max-width : 1100px)
+{
   .cardgeneral-a
   {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin-top: 30px;
   }
-
   .moitie1
   {
-    display: flex;
-    justify-content: space-between;
-    width: 49%;
+    width: 100%;
   }
   .moitie2
   {
-    display: flex;
-    justify-content: space-between;
-    width: 49%;
-  }
-
-      /*Vieux Port + Parc National des Calanques*/
-
-      .card-grande
-      {
-        width: 48%;
-        height: 400px;
-        background-color: white; 
-        box-shadow: 0px 5px 20px #999;
-        border-radius: 20px;
-        position: relative;
-      }
-    
-      .card-grande:hover
-      {
-        transform: scale(1.1);
-      }
-
-      .card-grande p
-      {
-        position: absolute;
-        bottom : 0px;
-        background-color: white;
-        border-radius: 0px 0px 20px 20px;
-        width: 100%;
-      }
-    
-      .card-grande a 
-      {
-        color: black; 
-        text-decoration: none;
-      }
-    
-      .card-image-grande
-    {
-      border-radius: 20px 20px 20px 20px;
-      height: 100%;
-      overflow: hidden;
-      position: relative;
-    }
-    
-    .card-image-grande img
-      {
-        width: 100%;
-        height: 100%;
-        transition: all .2s ease-in-out;
-        object-fit: cover;
-      }
-
-
-      /*Vieux Port + Parc National des Calanques*/
-
-      /*Fort de Pomègues*/
-
-      .card-pomegues
-      {
-        display: flex;
-        height: 55%;
-        background-color: white; 
-        box-shadow: 0px 5px 20px #999;
-        border-radius: 20px;
-        width: 100%;
-      }
-    
-      .card-pomegues:hover
-      {
-        transform: scale(1.1);
-      }
-    
-      .card-pomegues a 
-      {
-        display: flex;
-        flex-direction: column;
-        color: black; 
-        text-decoration: none;
-      }
-    
-      .card-image-pomegues
-    {
-      border-radius: 20px 20px 0px 0px;
-      overflow: hidden;
-      position: relative;
-    }
-    
-    .card-image-pomegues img
-      {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        transition: all .2s ease-in-out;
-        object-fit: cover;
-      }
-
-      /*Fort de Pomègues*/
-
-      /*Îles du Frioul*/
-
-      .card-frioul
-      {
-        display: flex;
-        flex-direction: column;
-        height: 40%;
-        background-color: white; 
-        box-shadow: 0px 5px 20px #999;
-        border-radius: 20px;
-      }
-    
-      .card-frioul:hover
-      {
-        transform: scale(1.1);
-      }
-    
-      .card-frioul a 
-      {
-        color: black; 
-        text-decoration: none;
-      }
-    
-      .card-image-frioul
-    {
-      border-radius: 20px 20px 0px 0px;
-      height: 110px;
-      overflow: hidden;
-      position: relative;
-    }
-    
-    .card-image-frioul img
-      {
-      width: 100%;
-      height: 100%;
-      transition: all .2s ease-in-out;
-      object-fit: cover;
-      }
-  
-
-      /*Îles du Frioul*/
-
-      /*Notre-Dame-de-la-Garde*/
-
-      .card-notredame
-      {
-        display: flex;
-        height: 40%;
-        background-color: white; 
-        box-shadow: 0px 5px 20px #999;
-        border-radius: 20px;
-      }
-    
-      .card-notredame:hover
-      {
-        transform: scale(1.1);
-      }
-    
-      .card-notredame a 
-      {
-        display: flex;
-        flex-direction: column;
-        color: black; 
-        text-decoration: none;
-      }
-    
-    .card-image-notredame
-    {
-      border-radius: 20px 20px 0px 0px;
-      overflow: hidden;
-      position: relative;
-    }
-    
-    .card-image-notredame img
-      {
-      display: flex;
-      height: 100%;
-      width: 100%;
-      transition: all .2s ease-in-out;
-      object-fit: cover;
-      }
-
-      /*Notre-Dame-de-la-Garde*/
-
-      /*Parc Longchamp*/
-
-      .card-longchamp
-      {
-        display: flex;
-        height: 55%;
-        background-color: white; 
-        box-shadow: 0px 5px 20px #999;
-        border-radius: 20px;
-        width: 100%;
-      }
-    
-      .card-longchamp:hover
-      {
-        transform: scale(1.1);
-      }
-    
-      .card-longchamp a 
-      {
-        display: flex;
-        flex-direction: column;
-        color: black; 
-        text-decoration: none;
-      }
-    
-      .card-image-longchamp
-    {
-      border-radius: 20px 20px 0px 0px;
-      overflow: hidden;
-      position: relative;
-    }
-    
-    .card-image-longchamp img
-      {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        transition: all .2s ease-in-out;
-        object-fit: cover;
-      }
-
-      /*Parc Longchamp*/
-
-  .double
-  {
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 400px;
-  }
-
-  @media screen and (min-width : 768px) and (max-width : 1100px)
-  {
-    .cardgeneral-a
-    {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 30px;
-    }
-    .moitie1
-    {
-      width: 100%;
-    }
-    .moitie2
-    {
-      width: 100%;
-      margin-top: 35px;
-    }
-  }
-
-  /*Activités*/
-
-  /*Footer*/
-
-  
-  footer
-  {
-    display: flex;
-    justify-content: space-between;
-    padding: 35px 350px 35px 30px;
-    background-color: #F2F2F2;
+    width: 100%;
     margin-top: 35px;
   }
+}
 
-  footer ul
-  {
-    list-style: none;
-    padding: 0px;
-  }
+/*Activités*/
 
-  footer a
-  {
-    text-decoration: none;
-    color: black;
-  }
+/*Footer*/
 
-  footer li
-  {
-    padding: 10px 0px 5px 10px;
-  }
+footer
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 350px 35px 30px;
+  background-color: #F2F2F2;
+  margin-top: 35px;
+}
 
-  .bold_li
-  {
-    font-weight: bold;
-    padding-bottom: 15px;
-  }
+footer ul
+{
+  list-style: none;
+  padding: 0px;
+}
 
-  /*Footer*/
+footer a
+{
+  text-decoration: none;
+  color: black;
+}
+
+footer li
+{
+  padding: 10px 0px 5px 10px;
+}
+
+.bold_li
+{
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+/*Footer*/

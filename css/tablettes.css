@@ -1,82 +1,77 @@
 .section-grise
-  {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px;
-  }
+{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
 
 /*Hébergements*/
 
-  #section_h
-  {
-    margin: 0px;
-    padding: 0px;
-    border-radius: 0px;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-  }
+#section_h
+{
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
 
-  .card 
-    {
-      width : 45%;
-    }
+.card 
+{
+  width : 45%;
+}
 
-    .card:hover
-  {
-    transform: scale(0.95);
-  }
+.card:hover
+{
+  transform: scale(0.95);
+}
 
-  .cardgeneral
-  {
-      padding: 0px 30px 0px 30px;
-  }
+.cardgeneral
+{
+  padding: 0px 30px 0px 30px;
+}
 
-  .section-grise #ap
-  {
-    margin-top: 25px;
-  }
+/*Hébergements*/
 
-  /*Hébergements*/
+/*Populaires*/
 
-  /*Populaires*/
+.populaires
+{
+  background-color: #F2F2F2;
+  border-radius: 0px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
 
-  .populaires
-  {
-    background-color: #F2F2F2;
-    border-radius: 0px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-  }
+.cardpop
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  width: 45%;
+}
 
-  .cardpop
-  {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 25px;
-    width: 45%;
-  }
+.cardpop:hover
+{
+  transform: scale(0.95);
+}
 
-  .cardpop:hover
-  {
-    transform: scale(0.95);
-  }
+.cardgeneralpop
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 30px 50px 30px;
+}
 
-  .cardgeneralpop
-  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0px 30px 50px 30px;
-  }
-
-  .card-imagepop
+.card-imagepop
 {
   margin: 5px;
   border-radius: 20px 0px 0px 20px;
@@ -86,56 +81,56 @@
 }
 
 .card-imagepop img
-  {
-    height: 100%;
-    transition: all .2s ease-in-out;
-    position: absolute;
-  }
+{
+  height: 100%;
+  transition: all .2s ease-in-out;
+  position: absolute;
+}
 
-  .card-bodypop
-  {
-    padding: 5% 5% 0% 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+.card-bodypop
+{
+  padding: 5% 5% 0% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  /*Populaires*/
+/*Populaires*/
 
-  /*Activités*/
+/*Activités*/
 
-  .card-grande:hover
-  {
-    transform: scale(0.95);
-  }
+.card-grande:hover
+{
+  transform: scale(0.95);
+}
 
-  .card-frioul:hover
-  {
-    transform: scale(0.95);
-  }
+.card-frioul:hover
+{
+  transform: scale(0.95);
+}
 
-  .card-pomegues:hover
-  {
-    transform: scale(0.95);
-  }
+.card-pomegues:hover
+{
+  transform: scale(0.95);
+}
 
-  .card-notredame:hover
-  {
-    transform: scale(0.95);
-  }
+.card-notredame:hover
+{
+  transform: scale(0.95);
+}
 
-  .card-longchamp:hover
-  {
-    transform: scale(0.95);
-  }
+.card-longchamp:hover
+{
+  transform: scale(0.95);
+}
 
-  /*Activités*/
+/*Activités*/
 
-  /*Footer*/
+/*Footer*/
 
 footer
 {
-    padding: 35px 30px 35px 30px;
+  padding: 35px 30px 35px 30px;
 }
 
-  /*Footer*/
+/*Footer*/
