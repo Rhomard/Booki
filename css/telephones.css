@@ -5,6 +5,13 @@ body
 
 /*header*/
 
+
+main h1
+{
+  font-size: 21px;
+  margin: 10px 0px 10px 0px;
+}
+
 .navbar
 {
   display: flex;

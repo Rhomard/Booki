@@ -3,9 +3,11 @@
   box-sizing: border-box;
 }
 
-body
+html body
 {
   font-family: 'Raleway', sans-serif;
+  max-width: 1440px;
+  margin: auto;
 }
 
 /*header*/
@@ -191,7 +193,7 @@ form button:hover
   box-sizing: border-box;
   margin-bottom: 7.5px;
   margin-top : 7.5px;
-  padding-right: 25px;
+  padding-right: 15px;
 }
 
 .filtres i
@@ -310,7 +312,7 @@ form button:hover
 
 #section_h
 {
-  width: 66%;
+  width: 69%;
   margin-right: 30px;
   background-color: #F2F2F2;
   border-radius: 20px;
@@ -403,7 +405,7 @@ form button:hover
 {
   background-color: #F2F2F2;
   border-radius: 20px;
-  width: 33%;
+  width: 30%;
 }
 
 .grow
@@ -823,7 +825,7 @@ footer
 {
   display: flex;
   justify-content: space-between;
-  padding: 35px 350px 35px 30px;
+  padding: 35px 365px 35px 30px;
   background-color: #F2F2F2;
   margin-top: 35px;
 }
